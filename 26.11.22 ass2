@@ -1,0 +1,6 @@
+print ("enter a value")
+a=int(input())
+print ("enter b value'")
+b=int(input())
+print("a>>2to10=",a>>2to10)
+print ("b>>1to10=",b>>1to10)
