@@ -1,0 +1,10 @@
+print('enter a')
+a=int(input())
+print('enter b')
+b=int(input())
+c=a&b
+print('bitwise and value',c)
+c=a|b
+print('bitwise or value',c)
+c=a^b
+print('bitwise Xor value',c)
