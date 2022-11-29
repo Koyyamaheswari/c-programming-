@@ -1,0 +1,21 @@
+empno=int(input("enter the empno"))
+name=input("enter emp name")
+design=input("enter the design")
+basic salary =int(input(" enter the basic salary"))
+da=int(input("enter the da"))
+ta=int(input("enter the ta"))
+hra=int(input("enter the hra"))
+net salary=basic salary+da+ta+hra
+if net salary>100000:
+  tax=net salary*10/100
+elif net salary>50000:
+   tax=7%
+elif  net salary>40000:
+   tax=4%
+elif net salary>20000:
+   tax=2%
+else net salary<2000:
+  tax=0
+    print("tax")
+    
+  
