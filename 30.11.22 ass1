@@ -1,0 +1,32 @@
+choco=500
+Drink=450
+oil=650
+biscuit=450
+dal=700
+cphno=int(input("enter the customer number:"))
+cname=input("enter the customer name:")
+caddr=input("enter the customer address:")
+chocoq=int(input("how many chocolates you want:"))
+drinkq=int(input("how many drink you want:"))
+oilq=int(input("how many oil packets you want:"))
+biscuitq=int(input("how many biscuit packets you want:"))
+dalq=int(input("how many dal packets you want:"))
+bill=(choco*chocoq)+(drink*drinkq)+(oil*oilq)+(biscuit*biscuitq)+(dal*dalq)
+if bill>3000:
+  tax=bill*5/100
+elif bill>2000:
+  tax=bill*7/100
+elif bill>1000:
+  tax=bill*10/100
+elif bill>500:
+  tax=bill*15/100
+else:
+  tax=100
+bill=bill+tax
+print("enter the customer number:",cphno)
+print("enter the customer name:",cname)
+print("enter the customer address:",caddr)
+print("bill amount:", bill)
+
+
+
